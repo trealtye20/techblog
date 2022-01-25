@@ -28,11 +28,7 @@ router.get('/post/:id', async (req, res) => {
         include:[User],
       }],
     }
-      // HINTS:
-      //  FIRST ARGUMENT IS PRIMARY KEY 'ID' PASSED IN THE END POINT
-      //  SECOND ARGUMENT IS AN OBJECT IN WHICH YOU USE PROPERTY 'INCLUDE' TO INCLUDE USER
-      //  AND COMMENT
-      // TODO: YOUR CODE HERE
+      
     );
 
     if (postData) {
